@@ -7,8 +7,8 @@ contract StakingToken is IERC20 {
     uint public totalSupply;
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address => uint)) public allowance;
-    string public name = "StakingToken";
-    string public symbol = "ST";
+    string public name = "Bitcoin";
+    string public symbol = "BTC";
     uint8 public decimals = 18;
 
     function transfer(address recipient, uint amount) external returns (bool) {
