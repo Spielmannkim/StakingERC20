@@ -7,8 +7,8 @@ contract RewardToken is IERC20 {
     uint public totalSupply;
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address => uint)) public allowance;
-    string public name = "RewardToken";
-    string public symbol = "RT";
+    string public name = "Ethereum";
+    string public symbol = "ETH";
     uint8 public decimals = 18;
 
     function transfer(address recipient, uint amount) external returns (bool) {
