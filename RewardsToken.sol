@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import "./IERC20.sol";
 
-contract RewardToken is IERC20 {
+contract RewardsToken is IERC20 {
     uint public totalSupply;
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address => uint)) public allowance;
